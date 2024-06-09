@@ -1,0 +1,261 @@
+/* inicio css global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+html body {
+    width: 100%;
+}
+
+/*==== inicio secao banner*/
+.secao-banner {
+    width: 100%;
+    padding: 120px 80px;
+    background-image: url(../img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.secao-logo {
+    max-width: 250px;
+    color: #3c184e;
+
+}
+
+.secao-logo img {
+    width: 30px;
+    margin: 0 5px;
+
+
+}
+
+.secao-logo p {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.secao-logo .paragrafo1 {
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+}
+
+.secao-fale-conosco {
+    width: 100%;
+    margin: 70px auto;
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+     margin-bottom: 0;
+     background-color: #ffffffc4;
+     box-shadow: 0 -8px 32px #1f26875e;
+
+
+}
+
+.secao-fale-conosco h1 {
+    font-size: 65px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800px;
+    margin: 0 0;
+    padding-bottom: 40px;
+}
+
+.secao-fale-conosco p {
+    width: 200px;
+   padding: 10px 25px 10px 25px;
+   background-color: #3c184e;
+   font-size: 20px;
+   border-radius: 10px;
+   text-align: center;
+   margin: 0 auto;
+
+
+}
+
+.secao-fale-conosco img {
+    width: 20px;
+    margin: 0 5px;
+
+}
+
+.secao-fale-conosco a {
+    color: #ffff;
+}
+
+/*=== fim secao banner===*/
+
+
+.secao-servicos {
+    padding: 120px 80px;
+}
+
+.secao-servicos h2 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-lista {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+
+}
+.secao-lista ul li {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+
+}
+
+li {
+    font-weight: 700;
+    color: #3c184e;
+    font-style: italic;
+}
+.span1 {
+    font-weight: normal;
+}
+
+.secao-imagem {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    
+}
+
+.secao-imagem img {
+    width: 157px;
+}
+
+/*=== fim seçao servicos===*/
+
+
+/*==seção redes sociais==*/
+
+.secao-faixa1 {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.secao-faixa1 p{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.secao-faixa1 span {
+    font-weight: 700;
+font-style: italic;
+}
+
+.secao-faixa1 img {
+width: 100px;
+    padding: 0 20px;
+}
+
+/*=== fim secao redes sociais ====*/
+
+/*== inicio secao marcas== */
+
+
+.secao-marcas {
+    padding: 120px 80px;
+
+}
+
+.secao-marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.secao-imagem1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.secao-imagem2 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.secao-imagem3 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.secao-imagem1  img {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px;
+}
+
+.secao-imagem2 img {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px;
+}
+
+.secao-imagem3 img {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px;
+}
+
+/*== fim secao marcas ==*/
+
+/*== secao localizaçao==*/
+
+.localizacao {
+    padding: 120px 80px;
+}
+
+.localizacao h4 {
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: #3c184e;
+}
+.localizacao p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-mapa {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.mapa {
+    width: 800px;
+}
+
+/*=== fim da seçao localizaçao==*/
+
+
+/*== seçao rodapé ==*/
+
+.rodape {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: #3c184e;
+}
+
+.rodape p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
